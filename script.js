@@ -149,8 +149,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const screenPosition = window.innerHeight / 1.2;
             
             if (elementPosition < screenPosition) {
-                element.style.opacity = '1';
-                element.style.transform = 'translateY(0)';
+                element.style.opacity = '1'; 
+                element.style.transform = 'translateY(0)'; 
             }
         });
     }
