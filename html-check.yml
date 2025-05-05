@@ -16,3 +16,4 @@ jobs:
           echo "Listing HTML, CSS, and JS files:"
           ls *.html *.css *.js || echo "Some files are missing"
           echo "✅ Workflow ran successfully."
+  
