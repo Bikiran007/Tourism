@@ -73,5 +73,8 @@ nav ul li a:hover {
   padding: 60px 20px;
   text-align: center;
 }
-
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
 
