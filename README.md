@@ -15,5 +15,15 @@ Built using modern web technologies, the website serves both local and internati
 - Hotel and transport booking links
 - Local culture and cuisine highlights
 
+- ## 🚀 Features
+
+- 🗺️ Interactive map of popular tourist destinations
+- 🏞️ High-resolution image galleries
+- 📅 Events and festival calendar
+- 📍 Suggested travel itineraries
+- 💬 Live chat / chatbot support (optional)
+- 📱 Fully responsive and mobile-friendly design
+- 🌐 Multilingual support (optional)
+
    
 
