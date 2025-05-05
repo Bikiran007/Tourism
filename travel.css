@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.spot {
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.spot h2 {
+  color: #2e8b57;
+}
+
+.spot p {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2e8b57;
+  color: white;
+}
