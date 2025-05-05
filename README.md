@@ -25,5 +25,18 @@ Built using modern web technologies, the website serves both local and internati
 - 📱 Fully responsive and mobile-friendly design
 - 🌐 Multilingual support (optional)
 
+  
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap/Tailwind, React (optional)
+- **Backend**: Node.js / Express (optional)
+
+## 📦 Installation & Setup
+
+To run the project locally:
+
+1. Clone the repository: https://github.com/Bikiran007/Tourism
+
+
    
 
