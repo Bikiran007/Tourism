@@ -12,14 +12,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .container {
@@ -133,7 +133,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: var(--secondary-color);
+    color: var(--secondary-color); 
 }
 
 .burger {
