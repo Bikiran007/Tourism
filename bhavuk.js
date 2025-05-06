@@ -22,3 +22,5 @@ async function fetchWeather() {
   } catch (err) {
     document.getElementById('weather').innerText = 'Failed to load weather.';
   }
+  }
+fetchWeather();
