@@ -87,3 +87,12 @@ nav {
     align-items: center;
     padding: 20px 0;
 }
+.logo p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-style: italic;
+}.logo p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-style: italic;
+}
