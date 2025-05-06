@@ -27,5 +27,21 @@
     document.getElementById("slider-img").src = images[index];
   }, 3000);
 </script>
+<nav>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#places" class="nav-link">Places</a>
+  <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<script>
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      target.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
 
 
