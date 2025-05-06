@@ -60,4 +60,18 @@ body {
   font-size: 1rem;
   color: #555;
 }
+.card:hover {
+  transform: translateY(-5px);
+}
 
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
