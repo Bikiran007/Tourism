@@ -76,3 +76,8 @@ section {
     background: var(--secondary-color);
     margin: 15px auto;
 }
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
