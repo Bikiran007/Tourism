@@ -75,6 +75,37 @@
   const today = new Date().toLocaleDateString("en-IN", options);
   dateEl.textContent = `Today in Kashmir: ${today}`;
 </script>
+<button id="scrollTopBtn" style="display:none;">⬆ Top</button>
+
+<script>
+  const scrollTopBtn = document.getElementById("scrollTopBtn");
+
+  window.addEventListener("scroll", () => {
+    scrollTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+  });
+
+  scrollTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+<style>
+  #scrollTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #008891;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #scrollTopBtn:hover {
+    background: #005f73;
+  }
+</style>
 
 
 
