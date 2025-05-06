@@ -46,5 +46,13 @@ nav a {
   display: grid;
   gap: 20px;
 }
+  .contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
 
 
