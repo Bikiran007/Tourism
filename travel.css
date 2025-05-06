@@ -100,3 +100,7 @@ nav {
     display: flex;
     list-style: none;
 }
+.burger {
+    display: none;
+    cursor: pointer;
+}
