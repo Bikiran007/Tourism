@@ -63,7 +63,16 @@ nav a {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.testimonials {
+  background: #fff;
+  padding: 60px 20px;
+}
 
+.testimonials h2 {
+  text-align: center;
+  color: #023047;
+  margin-bottom: 40px;
+}
 
 
 
