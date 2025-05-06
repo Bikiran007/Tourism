@@ -104,3 +104,8 @@ nav {
     display: none;
     cursor: pointer;
 }
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+}
