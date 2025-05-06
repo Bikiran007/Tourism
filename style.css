@@ -41,4 +41,9 @@ nav {
     left: 0;
     transition: width 0.3s ease;
 }
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
 
