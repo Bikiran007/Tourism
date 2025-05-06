@@ -146,3 +146,20 @@ nav a:hover {
 .btn:hover {
   background: #005f73;
 }
+footer {
+  background: #023047;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #ffb703;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
