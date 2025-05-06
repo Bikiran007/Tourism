@@ -131,3 +131,18 @@ nav a:hover {
   margin: auto;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
+.btn {
+  display: inline-block;
+  background: #008891;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #005f73;
+}
