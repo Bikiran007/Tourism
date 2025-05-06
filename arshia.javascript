@@ -67,6 +67,14 @@
     });
   });
 </script>
+<p id="today-date"></p>
+
+<script>
+  const dateEl = document.getElementById("today-date");
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const today = new Date().toLocaleDateString("en-IN", options);
+  dateEl.textContent = `Today in Kashmir: ${today}`;
+</script>
 
 
 
