@@ -30,3 +30,9 @@ nav a {
   color: white;
   margin-left: 20px;
   text-decoration
+  .contact-section {
+  background: #e0fbfc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
