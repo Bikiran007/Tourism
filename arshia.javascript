@@ -14,4 +14,18 @@
 
   greetingEl.textContent = greeting;
 </script>
+<div class="slider">
+  <img id="slider-img" src="kashmir1.jpg" alt="Kashmir View" width="100%" height="400">
+</div>
+
+<script>
+  const images = ["kashmir1.jpg", "kashmir2.jpg", "kashmir3.jpg"];
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % images.length;
+    document.getElementById("slider-img").src = images[index];
+  }, 3000);
+</script>
+
 
