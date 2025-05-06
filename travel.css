@@ -96,3 +96,7 @@ nav {
     color: var(--secondary-color);
     font-style: italic;
 }
+.nav-links {
+    display: flex;
+    list-style: none;
+}
