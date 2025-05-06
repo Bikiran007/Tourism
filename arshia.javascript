@@ -42,6 +42,31 @@
     });
   });
 </script>
+<section class="hidden-section">...Your Content...</section>
+
+<style>
+  .hidden-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 1s ease;
+  }
+  .show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<script>
+  const sections = document.querySelectorAll('.hidden-section');
+  window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+      const top = section.getBoundingClientRect().top;
+      if (top < window.innerHeight - 100) {
+        section.classList.add('show');
+      }
+    });
+  });
+</script>
 
 
 
