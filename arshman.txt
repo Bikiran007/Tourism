@@ -1,0 +1,84 @@
+hiiiii
+hloooo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kashmir Tourism</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff;
+    }
+header {
+      background: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    .places {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+ }
+    footer {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Welcome to Kashmir Tourism</h1>
+  <p>Experience Paradise on Earth</p>
+</header>
+
+<section>
+  <h2>About Kashmir</h2>
+  <p>Kashmir, often called heaven on earth, is known for its breathtaking landscapes, snow-capped mountains, and tranquil valleys. A perfect destination for nature lovers, adventurers, and peace seekers.</p>
+</section>
+<section>
+  <h2>Top Places to Visit</h2>
+  <div class="places">
+    <div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Dal_Lake%2C_Srinagar%2C_Kashmir.jpg" alt="Dal Lake">
+      <h3>Dal Lake</h3>
+      <p>Enjoy a Shikara ride on the serene waters of Dal Lake in Srinagar.</p>
+    </div>
+<div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Gulmarg_Snow.jpg" alt="Gulmarg">
+      <h3>Gulmarg</h3>
+      <p>Perfect for skiing and enjoying snowy adventures in winter.</p>
+    </div>
+<div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Pahalgam_Valley.jpg" alt="Pahalgam">
+      <h3>Pahalgam</h3>
+      <p>A peaceful retreat surrounded by lush green meadows and rivers.</p>
+    </div>
+</div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: info@kashmirtourism.com</p>
+  <p>Phone: +91-12345-67890</p>
+</section>
+<footer>
+  <p>&copy; 2025 Kashmir Tourism. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

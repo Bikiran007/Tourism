@@ -48,3 +48,64 @@ header {
     z-index: 1000;
     transition: all 0.3s ease;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    overflow-x: hidden; 
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+section {
+    padding: 80px 0;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--secondary-color);
+    margin: 15px auto;
+}
+.btn:hover {
+    background: #2980b9;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-style: italic;
+}.logo p {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-style: italic;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+}

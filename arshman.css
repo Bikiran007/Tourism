@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header, footer {
+  background: #2e8b57;
+  color: white;
+  padding: 15px;
+}
+main {
+  padding: 20px;
+}
+
+img {
+  width: 90;
+  
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body 
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  
+}
+header {
+  background: linear-gradient(to right, #2e8b57, #3cb371);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+header {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/2/29/Nature_in_Kashmir_Valley.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}.hero .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
