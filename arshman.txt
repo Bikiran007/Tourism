@@ -76,3 +76,9 @@ header {
   <p>Email: info@kashmirtourism.com</p>
   <p>Phone: +91-12345-67890</p>
 </section>
+<footer>
+  <p>&copy; 2025 Kashmir Tourism. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
