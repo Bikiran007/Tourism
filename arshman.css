@@ -15,8 +15,7 @@ main {
 }
 
 img {
-  width: 90%;
-  max-width: 300px;
+  width: 90;
   
   margin: 10px 0;
 }
@@ -25,7 +24,7 @@ img {
   padding: 0;
   
 }
-body {
+body 
   font-family: 'Segoe UI', sans-serif;
   background: #f0f8ff;
   color: #333;
