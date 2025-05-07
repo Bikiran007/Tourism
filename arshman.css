@@ -62,3 +62,11 @@ header {
   text-align: center;
   padding: 2rem 1rem;
 }
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/2/29/Nature_in_Kashmir_Valley.jpg') no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
