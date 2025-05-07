@@ -42,3 +42,11 @@ header {
 <body>
 
 <header>
+<h1>Welcome to Kashmir Tourism</h1>
+  <p>Experience Paradise on Earth</p>
+</header>
+
+<section>
+  <h2>About Kashmir</h2>
+  <p>Kashmir, often called heaven on earth, is known for its breathtaking landscapes, snow-capped mountains, and tranquil valleys. A perfect destination for nature lovers, adventurers, and peace seekers.</p>
+</section>
