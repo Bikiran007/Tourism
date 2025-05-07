@@ -63,3 +63,8 @@ header {
       <h3>Gulmarg</h3>
       <p>Perfect for skiing and enjoying snowy adventures in winter.</p>
     </div>
+<div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Pahalgam_Valley.jpg" alt="Pahalgam">
+      <h3>Pahalgam</h3>
+      <p>A peaceful retreat surrounded by lush green meadows and rivers.</p>
+    </div>
