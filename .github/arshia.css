@@ -1,0 +1,78 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+  background: #005f73;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration
+  .contact-section {
+  background: #e0fbfc;
+  padding: 60px 20px;
+  text-align: center;
+}
+  .contact-section h2 {
+  margin-bottom: 30px;
+  color: #023047;
+  font-size: 2rem;
+}
+  .contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+  .contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+  .contact-form button {
+  padding: 12px;
+  background-color: #008891;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.testimonials {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  color: #023047;
+  margin-bottom: 40px;
+}
+
+
+

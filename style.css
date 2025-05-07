@@ -31,4 +31,27 @@ nav {
     color: var(--primary-color);
     margin-bottom: 5px;
 }
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-color);
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--dark-color);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+
 

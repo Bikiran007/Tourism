@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* About Section */
+.about-kashmir {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+}
+.about-kashmir h2 {
+  font-size: 2.5rem;
+  color: #005f73;
+  margin-bottom: 20px;
+}
+
+.about-kashmir p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: auto;
+}
+.destinations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  color: #008891;
+  padding: 15px;
+}
+
+.card p {
+  padding: 0 15px 20px;
+  font-size: 1rem;
+  color: #555;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (max-width: 768px) {
+  .about-kashmir h2 {
+    font-size: 2rem;
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+  }
+}
+header {
+  background: #023047;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #ffb703;
+}
+.hero {
+  background: url('kashmir-hero.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: auto;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+.btn {
+  display: inline-block;
+  background: #008891;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #005f73;
+}
+footer {
+  background: #023047;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  margin-top: 60px;
+}
+
+footer a {
+  color: #ffb703;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

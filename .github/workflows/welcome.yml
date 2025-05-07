@@ -1,0 +1,20 @@
+name: Great First-Time Contributors
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Send greeting comment to new contributor
+        if: github.actor != 'github-actions[bot]' && github.event.pull_request.user.association == 'CONTRIBUTOR'
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -d '{"body":"Welcome to the project, ${{ github.event.pull_request.user.login }}! Thanks for contributing!"}' \
+            "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"
