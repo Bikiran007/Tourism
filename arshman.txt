@@ -68,3 +68,11 @@ header {
       <h3>Pahalgam</h3>
       <p>A peaceful retreat surrounded by lush green meadows and rivers.</p>
     </div>
+</div>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: info@kashmirtourism.com</p>
+  <p>Phone: +91-12345-67890</p>
+</section>
