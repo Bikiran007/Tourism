@@ -58,3 +58,8 @@ header {
       <h3>Dal Lake</h3>
       <p>Enjoy a Shikara ride on the serene waters of Dal Lake in Srinagar.</p>
     </div>
+<div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Gulmarg_Snow.jpg" alt="Gulmarg">
+      <h3>Gulmarg</h3>
+      <p>Perfect for skiing and enjoying snowy adventures in winter.</p>
+    </div>
