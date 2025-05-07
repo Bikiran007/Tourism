@@ -5,3 +5,8 @@ body {
   padding: 0;
   text-align: center;
 }
+header, footer {
+  background: #2e8b57;
+  color: white;
+  padding: 15px;
+}
