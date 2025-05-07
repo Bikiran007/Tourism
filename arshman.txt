@@ -50,3 +50,11 @@ header {
   <h2>About Kashmir</h2>
   <p>Kashmir, often called heaven on earth, is known for its breathtaking landscapes, snow-capped mountains, and tranquil valleys. A perfect destination for nature lovers, adventurers, and peace seekers.</p>
 </section>
+<section>
+  <h2>Top Places to Visit</h2>
+  <div class="places">
+    <div class="place">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Dal_Lake%2C_Srinagar%2C_Kashmir.jpg" alt="Dal Lake">
+      <h3>Dal Lake</h3>
+      <p>Enjoy a Shikara ride on the serene waters of Dal Lake in Srinagar.</p>
+    </div>
