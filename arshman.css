@@ -52,3 +52,7 @@ header p {
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
