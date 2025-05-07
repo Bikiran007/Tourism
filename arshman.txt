@@ -27,3 +27,13 @@ header {
       gap: 20px;
       justify-content: center;
     }
+ }
+    footer {
+      background: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
