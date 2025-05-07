@@ -10,3 +10,13 @@ header, footer {
   color: white;
   padding: 15px;
 }
+main {
+  padding: 20px;
+}
+
+img {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
